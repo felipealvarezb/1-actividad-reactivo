@@ -2,7 +2,7 @@
 
 ##### Explique las salidas de este proceso:
 
-`
+```
 Flux<Integer> numbers = Flux.range(1, 10)
     .map(i -> {
         if (i % 2 == 0) {
@@ -25,7 +25,7 @@ Flux<Integer> numbers = Flux.range(1, 10)
         error -> log.error("Error general: {}", error),
         () -> System.out.println("Completado")
     );
-  `
+  ```
 
 
 ##### Explicación:
