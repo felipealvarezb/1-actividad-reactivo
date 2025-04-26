@@ -2,7 +2,7 @@
 
 ##### Explique las salidas de este proceso:
 
-```
+```java
 Flux<Integer> numbers = Flux.range(1, 10)
     .map(i -> {
         if (i % 2 == 0) {
